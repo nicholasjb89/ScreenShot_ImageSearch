@@ -1,6 +1,5 @@
 from PIL import Image,ImageGrab
 
-
 class Picture(object):
     def __init__(self,file, xColors=[], bbox = None):
         self.picture = Image.open(file).convert("RGB")
