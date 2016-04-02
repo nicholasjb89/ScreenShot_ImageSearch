@@ -30,4 +30,3 @@ class ScreenShot_contains_image_test(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
